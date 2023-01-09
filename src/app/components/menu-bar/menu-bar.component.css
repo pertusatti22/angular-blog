@@ -1,3 +1,9 @@
+.container__menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .container__menu-bar > ul{
   display: flex;
   flex-direction: row;

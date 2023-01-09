@@ -1,0 +1,9 @@
+<input
+  name='toggle'
+  value='valuable'
+  id="toggle"
+  type="checkbox"
+  [checked]="darkMode$ | async"
+  (change)="onToggle()"
+/>
+<label for="toggle"></label>

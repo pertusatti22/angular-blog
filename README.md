@@ -4,7 +4,7 @@ Para o meu projeto da DIO decidi incluir as seguintes funcionalidades:
 - [x] Popular os conteúdos do componente big-card com fakeData
 - [x] Popular os conteúdos do componente small-card com fakeData
 - [x] Utilizar ngFor para preencher os dados da lista de artigos
-- [ ] Implementar estilo e botão no menu para DarkTheme/LightTheme
+- [x] Implementar estilo e botão no menu para DarkTheme/LightTheme
 
 
 

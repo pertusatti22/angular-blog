@@ -25,7 +25,6 @@ export class SmallCardComponent implements OnInit {
     const result = dataFake.filter(
       article => article.id == id
     )[0]
-    console.log(this.Id)
     this.photoCover = result.photo
     this.cardTitle = result.title
   }
