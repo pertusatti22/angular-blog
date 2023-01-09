@@ -1,0 +1,23 @@
+input[type=checkbox] {
+  display:none;
+}
+
+input[type=checkbox] + label
+{
+  background-image: url("/assets/light_icon.png");
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+  display:inline-block;
+  padding: 0 0 0 0;
+}
+
+input[type=checkbox]:checked + label
+{
+  background-image: url("/assets/dark_icon.png");
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+  display:inline-block;
+  padding: 0 0 0 0;
+}

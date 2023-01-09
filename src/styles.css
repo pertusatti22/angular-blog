@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #5b5b5b;
+}
+
+body.dark-mode {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #111111;
+}
